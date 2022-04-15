@@ -943,7 +943,6 @@
     <dependencySets>
         <!-- use the new tool to create a bundles -->
         <dependencySet>
-      <useProjectArtifact>false</useProjectArtifact>
             <outputDirectory>wso2am-${pom.version}/lib/core/WEB-INF/lib</outputDirectory>
             <includes>
                 <include>org.wso2.carbon:org.wso2.carbon.mediator.bridge:jar</include>
