@@ -1489,14 +1489,14 @@
             <outputDirectory>${project.artifactId}-${project.version}/repository/conf/</outputDirectory>
             <filtered>false</filtered>
         </file>
-        <!--<file>
+        <file>
             <source>
                 ../../p2-profile/product/target/wso2carbon-core-${carbon.kernel.version}/repository/conf/stream-interceptors.xml
             </source>
             <outputDirectory>${project.artifactId}-${project.version}/repository/conf/</outputDirectory>
             <filtered>false</filtered>
             <fileMode>644</fileMode>
-        </file>-->
+        </file>
         <file>
             <source>
                 ../../p2-profile/product/target/wso2carbon-core-${carbon.kernel.version}/repository/conf/metrics.properties
