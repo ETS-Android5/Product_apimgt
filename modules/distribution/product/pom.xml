@@ -564,6 +564,9 @@
                             <descriptors>
                                 <descriptor>src/main/assembly/docs.xml</descriptor>
                             </descriptors>
+<excludes>
+                    <exclude>**/*.zip</exclude>
+                </excludes>
                         </configuration>
                     </execution>
                     <execution>
